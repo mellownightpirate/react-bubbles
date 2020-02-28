@@ -26,11 +26,19 @@ In this project you will create a login page and request a token from the server
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] Explain what a token is used for.
-- [ ] What steps can you take in your web apps to keep your data secure?
-- [ ] Describe how web servers work.
-- [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+- [x] Explain what a token is used for.
+Token-based authentication is used to ensure that only those who are approved to view a page can access it. If requirements are met, then the token is passed back and forth from the client to the server to fetch or post data.
 
+- [x] What steps can you take in your web apps to keep your data secure?
+Protected routes ensure that only users who are logged in can access a page, this can be done with an axios call that sends a unique token for the user.
+
+Hypertext transfer protocol secure (HTTPS) is the secure version of HTTP, and is a secure way to send data between a web server and a web browser.
+
+- [x] Describe how web servers work.
+Web servers store, process and deliver web pages to clients. The communication between client and server takes place using HTTP. The client sends requests to the server and the server listens for requests and sends data back, this can be rendered viewable to a browser.
+
+- [x] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+CRUD - Create, Read, Update and Delete. In a REST environment, the HTTP methods POST, GET, PUT, and DELETE can be mapped.
 
 ## Project Set Up
 
@@ -86,7 +94,7 @@ Build a login form to authenticate your users.
 
 **HTTP/Axios Stretch Problems**
 
-- [ ] Build a form at the bottom of `ColorList.js` to add new colors to the colors data
+- [x] Build a form at the bottom of `ColorList.js` to add new colors to the colors data
 
 **Data Visualization**
 
